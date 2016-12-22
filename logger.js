@@ -1,7 +1,7 @@
 /*eslint no-console:0*/
 /*eslint no-restricted-globals:0*/
 
-(function() {
+(() => {
 
 	const Logger = function() {
 		const my = {};
@@ -132,5 +132,4 @@
 	};
 
 	window.Logger = Logger;
-
-});
+})();
