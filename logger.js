@@ -75,7 +75,7 @@
 			}
 			console.error.apply(console, my.getIdentifier().concat(args));
 
-			if(reportErrorsToRaven) {
+			if(my.reportErrorsToRaven) {
 				//report to raven also
 				Raven.captureException(new Error(my.argsToString(args)));
 			}
