@@ -41,15 +41,15 @@ If you want your logs just when running test cases, say it
 
 a) Use the default styling
 
-	`const log = Logger('name');`
+	const log = Logger('name');
 
 b) Set your favorit color
 
-	`const log = Logger('name', 'blue');`
+	const log = Logger('name', 'blue');
 
 c) Go crazy with your css styling
 
-	`const log = Logger('name', 'color:red;font-weight:bold');`
+	const log = Logger('name', 'color:red;font-weight:bold');
 
 
 ## Todo:
