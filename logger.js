@@ -1,7 +1,7 @@
 /*eslint no-console:0*/
 /*eslint no-restricted-globals:0*/
 
-(() => {
+module export (() => {
 
 	const Logger = function() {
 		const my = {};
@@ -131,5 +131,5 @@
 		return my.construct.apply(null, arguments);
 	};
 
-	window.Logger = Logger;
+	return Logger;
 })();
