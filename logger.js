@@ -1,7 +1,7 @@
 /*eslint no-console:0*/
 /*eslint no-restricted-globals:0*/
 
-module export (() => {
+export default (() => {
 
 	const Logger = function() {
 		const my = {};
