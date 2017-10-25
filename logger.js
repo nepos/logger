@@ -1,5 +1,6 @@
 /*eslint no-console:0*/
 /*eslint no-restricted-globals:0*/
+import _ from 'lodash';
 
 export default (() => {
 
